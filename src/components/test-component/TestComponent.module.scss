@@ -1,0 +1,13 @@
+.testCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  color: white;
+  text-align: center;
+  background: darkred;
+  border-radius: 50%;
+  box-shadow: 4px 7px 20px 6px rgb(0 0 0 / 20%);
+}

@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-sass-guidelines",
+    "stylelint-prettier/recommended"
+  ],
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-order"
+  ],
+  "rules": {
+    "color-named": null,
+    "import-notation": null,
+    "selector-class-pattern": null,
+    "no-invalid-position-at-import-rule": null,
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["apply", "layer", "responsive", "screen", "tailwind", "variants"]
+      }
+    ],
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "ignoreAtRules": ["if", "else", "include", "media"],
+        "except": ["after-same-name", "inside-block"]
+      }
+    ],
+    "media-query-no-invalid": null
+  }
+}
