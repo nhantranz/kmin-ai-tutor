@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import React from 'react';
 import './globals.scss';
+import NavBar from "@/components/nav-bar/NavBar";
 
 export const metadata: Metadata = {
   title: 'Sample NextJS App',
@@ -14,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+      <NavBar />
+      {children}
+      </body>
     </html>
   );
 }

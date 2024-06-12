@@ -1,0 +1,19 @@
+{
+  "logo": {
+    "href": "",
+    "width": "",
+    "height": ""
+  },
+  "links": [
+    {
+      "label": "Fanpage",
+      "href": "",
+      "target": "_self"
+    },
+    {
+      "label": "Facebook group",
+      "href": "",
+      "target": "_self"
+    }
+  ]
+}
